@@ -1,0 +1,35 @@
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .task {
+        @apply bg-white rounded-lg shadow-md p-4;
+    }
+
+    .task-title {
+        @apply text-lg font-semibold;
+    }
+
+    .task-description {
+        @apply text-gray-600;
+    }
+
+    .task-completed {
+        @apply line-through;
+    }
+}
+
+@layer utilities {
+    .text-red {
+        @apply text-red-500;
+    }
+
+    .text-green {
+        @apply text-green-500;
+    }
+}
+
+@tailwind components;
+@tailwind utilities;
