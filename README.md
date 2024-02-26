@@ -24,9 +24,10 @@ DB_CONNECTION=sqlite
 DB_DATABASE=htmx
 ```
 
-And then we can migrate the db:
+And then we can generate-api-key and migrate the db:
 
 ```bash
+php artisan key:generate
 php artisan migrate
 ```
 
